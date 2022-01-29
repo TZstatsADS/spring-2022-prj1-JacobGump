@@ -1,28 +1,15 @@
-# Applied Data Science @ Columbia
-## Fall 2021
-## Project 1: A "data story" on the history of philosophy
+# Who Said This?
+## Philosophy from a data point of view
 
-<img src="figs/100126-the-glass.jpeg" width="500">
+__sg4010 Sibo Geng__
 
-### [Project Description](doc/)
-This is the first and only *individual* (as opposed to *team*) project this semester. 
+"One should only speak where one cannot remain silent, and only speak of what one has conquered —the rest is all chatter, “literature,” bad breeding." --Friedrich Nietzsche
 
-Term: Fall 2021
+I chose this quote from Nietzche not because it strike a particular chord in my heart, instead, I picked it because it set me wondering, what is the idea behind this sentence the philosopher is trying to convey? Luckily, I have data to my aid. To best utilize the data at hand, I decided to address the the challange as a supervised learning problem. Namely, the goal is to develop an algorithm that predict the school of philosophy a given sentence belongs to.
 
-+ Projec title: Lorem ipsum dolor sit amet
-+ This project is conducted by [your name]
+In this project I conducted the following data exploration tasks:
 
-+ Project summary: [a short summary] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
-
-```
-proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-└── output/
-```
-
-Please see each subfolder for a README file.
+1. Explored different vectorization method to encode text data.
+2. Used Naive Bayes model to conduct a classification task on the philosophy dataset.
+3. Based on tf-idf technique, explored the influence of feature selection on model performance.
+4. Applied text processing and model to real-world test data.
